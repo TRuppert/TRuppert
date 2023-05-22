@@ -1,0 +1,474 @@
+CompTIA Security+
+Certification Exam
+Objectives
+EXAM NUMBER: SY0-501
+
+ABOUT THE EXAM
+The CompTIA Security+ certification is a vendor-neutral credential. The CompTIA Security+
+exam is an internationally recognized validation of foundation-level security skills and
+knowledge, and is used by organizations and security professionals around the globe.
+The CompTIA Security+ exam will certify the successful candidate has the knowledge and skills required
+to install and configure systems to secure applications, networks, and devices; perform threat analysis
+and respond with appropriate mitigation techniques; participate in risk mitigation activities; and
+operate with an awareness of applicable policies, laws, and regulations. The successful candidate
+will perform these tasks to support the principles of confidentiality, integrity, and availability.
+The CompTIA Security+ certification is aimed at an IT security professional who has:
+• A minimum of two years’ experience in IT administration with a focus on security
+• Day-to-day technical information security experience
+• Broad knowledge of security concerns and implementation, including the topics in the domain list
+These content examples are meant to clarify the test objectives and should not be
+construed as a comprehensive listing of all content in this examination.
+
+EXAM ACCREDITATION
+CompTIA Security+ is accredited by ANSI to show compliance with the ISO 17024 Standard
+and, as such, the exam objectives undergo regular reviews and updates.
+EXAM DEVELOPMENT
+CompTIA exams result from subject matter expert workshops and industry-wide survey
+results regarding the skills and knowledge required of an IT professional.
+
+CompTIA AUTHORIZED MATERIALS USE POLICY
+CompTIA Certifications, LLC is not affiliated with and does not authorize, endorse or condone utilizing any
+content provided by unauthorized third-party training sites (aka “brain dumps”). Individuals who utilize
+such materials in preparation for any CompTIA examination will have their certifications revoked and be
+suspended from future testing in accordance with the CompTIA Candidate Agreement. In an effort to more
+clearly communicate CompTIA’s exam policies on use of unauthorized study materials, CompTIA directs
+all certification candidates to the CompTIA Certification Exam Policies. Please review all CompTIA policies
+before beginning the study process for any CompTIA exam. Candidates will be required to abide by the
+CompTIA Candidate Agreement. If a candidate has a question as to whether study materials are considered
+unauthorized (aka “brain dumps”), he/she should contact CompTIA at examsecurity@comptia.org to confirm.
+
+PLEASE NOTE
+The lists of examples provided in bulleted format are not exhaustive lists. Other examples of
+technologies, processes or tasks pertaining to each objective may also be included on the exam
+although not listed or covered in this objectives document. CompTIA is constantly reviewing the
+content of our exams and updating test questions to be sure our exams are current and the security
+of the questions is protected. When necessary, we will publish updated exams based on existing
+exam objectives. Please know that all related exam preparation materials will still be valid.
+
+
+About the Exam
+
+CompTIA Security+ Certification Exam Objectives Version 2.0 (Exam Number: SY0-501)
+
+TEST DETAILS
+
+Required exam CompTIA Security+ SY0-501
+
+            Number of questions Maximum of 90
+            Types of questions Multiple choice and performance-based
+            Length of test 90 minutes
+            Recommended experience At least two years of experience
+            in IT administration with a focus on security
+            Passing score 750 (on a scale of 100–900)
+            EXAM OBJECTIVES (DOMAINS)
+            The table below lists the domains measured by this examination
+            and the extent to which they are represented:
+            
+            DOMAIN PERCENTAGE OF EXAMINATION
+            1.0 Threats, Attacks and Vulnerabilities 21%
+            2.0 Technologies and Tools 22%
+            3.0 Architecture and Design 15%
+            4.0 Identity and Access Management 16%
+            5.0 Risk Management 14%
+            6.0 Cryptography and PKI 12%
+            Total 100%
+            CompTIA Security+ Certification Exam Objectives Version 2.0 (
+            
+            
+       1.0 Threats, Attacks and Vulnerabilities
+            1.1   Given a scenario, analyze indicators of compromise
+              and determine the type of malware.
+              
+              
+              • Viruses
+• Crypto-malware
+• Ransomware
+• Worm
+• Trojan
+• Rootkit
+• Keylogger
+• Adware
+• Spyware
+• Bots
+• RAT
+• Logic bomb
+• Backdoor
+
+
+1.2    Compare and contrast types of attacks.
+
+• Social engineering
+- Phishing
+- Spear phishing
+- Whaling
+- Vishing
+- Tailgating
+- Impersonation
+- Dumpster diving
+- Shoulder surfing
+- Hoax
+- Watering hole attack
+- Principles (reasons for effectiveness)
+ - Authority
+ - Intimidation
+ - Consensus
+ - Scarcity
+ - Familiarity
+ - Trust
+ - Urgency
+• Application/service attacks
+- DoS
+- DDoS
+- Man-in-the-middle
+- Buffer overflow
+- Injection
+- Cross-site scripting
+- Cross-site request forgery
+- Privilege escalation
+- ARP poisoning
+- Amplification
+- DNS poisoning
+- Domain hijacking
+- Man-in-the-browser
+- Zero day
+- Replay
+- Pass the hash
+- Hijacking and related attacks
+ - Clickjacking
+ - Session hijacking
+ - URL hijacking
+ - Typo squatting
+- Driver manipulation
+ - Shimming
+ - Refactoring
+- MAC spoofing
+- IP spoofing
+• Wireless attacks
+- Replay
+- IV
+- Evil twin
+- Rogue AP
+- Jamming
+- WPS
+- Bluejacking
+- Bluesnarfing
+- RFID
+- NFC
+- Disassociation
+• Cryptographic attacks
+- Birthday
+- Known plain text/cipher text
+- Rainbow tables
+- Dictionary
+- Brute force
+ - Online vs. offline
+- Collision
+- Downgrade
+- Replay
+- Weak implementations
+
+
+
+1.3  Explain threat actor types and attributes.
+
+• Types of actors
+- Script kiddies
+- Hacktivist
+- Organized crime
+- Nation states/APT
+- Insiders
+- Competitors
+• Attributes of actors
+- Internal/external
+- Level of sophistication
+- Resources/funding
+- Intent/motivation
+• Use of open-source intelligence
+
+
+
+
+1.4  Explain penetration testing concepts.
+
+• Active reconnaissance
+• Passive reconnaissance
+• Pivot
+• Initial exploitation
+• Persistence
+• Escalation of privilege
+• Black box
+• White box
+• Gray box
+• Penetration testing vs.
+ vulnerability scanning
+
+1.5  Explain vulnerability scanning concepts.
+
+• Passively test security controls
+• Identify vulnerability
+• Identify lack of security controls
+• Identify common misconfigurations
+• Intrusive vs. non-intrusive
+• Credentialed vs. non-credentialed
+• False positive
+
+1.6  Explain the impact associated with types of vulnerabilities.
+
+• Race conditions
+• Vulnerabilities due to:
+- End-of-life systems
+- Embedded systems
+- Lack of vendor support
+• Improper input handling
+• Improper error handling
+• Misconfiguration/weak configuration
+• Default configuration
+• Resource exhaustion
+• Untrained users
+• Improperly configured accounts
+• Vulnerable business processes
+• Weak cipher suites and implementations
+• Memory/buffer vulnerability
+- Memory leak
+- Integer overflow
+- Buffer overflow
+- Pointer dereference
+- DLL injection
+• System sprawl/undocumented assets
+• Architecture/design weaknesses
+• New threats/zero day
+• Improper certificate and key management
+ 
+ 
+ 2.0 Technologies and Tools
+ 
+2.1 Install and configure network components, both hardwareand software-based, to support organizational security.
+
+• Firewall
+- ACL
+- Application-based vs. network-based
+- Stateful vs. stateless
+- Implicit deny
+• VPN concentrator
+- Remote access vs. site-to-site
+- IPSec
+ - Tunnel mode
+ - Transport mode
+ - AH
+ - ESP
+- Split tunnel vs. full tunnel
+- TLS
+- Always-on VPN
+• NIPS/NIDS
+- Signature-based
+- Heuristic/behavioral
+- Anomaly
+- Inline vs. passive
+- In-band vs. out-of-band
+- Rules
+- Analytics
+ - False positive
+ - False negative
+• Router
+- ACLs
+- Antispoofing
+• Switch
+- Port security
+- Layer 2 vs. Layer 3
+- Loop prevention
+- Flood guard
+• Proxy
+- Forward and reverse proxy
+- Transparent
+- Application/multipurpose
+• Load balancer
+- Scheduling
+ - Affinity
+ - Round-robin
+- Active-passive
+- Active-active
+- Virtual IPs
+• Access point
+- SSID
+- MAC filtering
+- Signal strength
+- Band selection/width
+- Antenna types and placement
+- Fat vs. thin
+- Controller-based vs. standalone
+• SIEM
+- Aggregation
+- Correlation
+- Automated alerting and triggers
+- Time synchronization
+- Event deduplication
+- Logs/WORM
+• DLP
+- USB blocking
+- Cloud-based
+- Email
+• NAC
+- Dissolvable vs. permanent
+- Host health checks
+- Agent vs. agentless
+• Mail gateway
+- Spam filter
+- DLP
+- Encryption
+• Bridge
+• SSL/TLS accelerators
+• SSL decryptors
+• Media gateway
+• Hardware security module
+ 
+
+2.2  Given a scenario, use appropriate software tools
+     to assess the security posture of an organization.
+     
+  • Protocol analyzer
+• Network scanners
+- Rogue system detection
+- Network mapping
+• Wireless scanners/cracker
+• Password cracker
+• Vulnerability scanner
+• Configuration compliance scanner
+• Exploitation frameworks
+• Data sanitization tools
+• Steganography tools
+• Honeypot
+• Backup utilities
+• Banner grabbing
+• Passive vs. active
+• Command line tools
+- ping
+- netstat
+- tracert
+- nslookup/dig
+- arp
+- ipconfig/ip/ifconfig
+- tcpdump
+- nmap
+- netcat
+
+2.3 Given a scenario, troubleshoot common security issues. 
+
+• Unencrypted credentials/clear text
+• Logs and events anomalies
+• Permission issues
+• Access violations
+• Certificate issues
+• Data exfiltration
+• Misconfigured devices
+- Firewall
+- Content filter
+- Access points
+• Weak security configurations
+• Personnel issues
+- Policy violation
+- Insider threat
+- Social engineering
+- Social media
+- Personal email
+• Unauthorized software
+• Baseline deviation
+• License compliance violation
+ (availability/integrity)
+• Asset management
+• Authentication issues
+
+2.4  Given a scenario, analyze and interpret output from security technologies.
+• HIDS/HIPS
+• Antivirus
+• File integrity check
+• Host-based firewall
+• Application whitelisting
+• Removable media control
+• Advanced malware tools
+• Patch management tools
+• UTM
+• DLP
+• Data execution prevention
+• Web application firewall
+2.5  Given a scenario, deploy mobile devices securely.
+
+• Connection methods
+- Cellular
+- WiFi
+- SATCOM
+- Bluetooth
+- NFC
+- ANT
+- Infrared
+- USB
+• Mobile device management concepts
+- Application management
+- Content management
+- Remote wipe
+- Geofencing
+- Geolocation
+- Screen locks
+- Push notification services
+- Passwords and pins
+- Biometrics
+- Context-aware authentication
+- Containerization
+- Storage segmentation
+- Full device encryption
+• Enforcement and monitoring for:
+- Third-party app stores
+- Rooting/jailbreaking
+- Sideloading
+- Custom firmware
+- Carrier unlocking
+- Firmware OTA updates
+- Camera use
+- SMS/MMS
+- External media
+- USB OTG
+- Recording microphone
+- GPS tagging
+- WiFi direct/ad hoc
+- Tethering
+- Payment methods
+• Deployment models
+- BYOD
+- COPE
+- CYOD
+- Corporate-owned
+- VDI
+
+2.6  Given a scenario, implement secure protocols.
+
+  • Protocols
+- DNSSEC
+- SSH
+- S/MIME
+- SRTP
+- LDAPS
+- FTPS
+- SFTP
+- SNMPv3
+- SSL/TLS
+- HTTPS
+- Secure POP/IMAP
+• Use cases
+- Voice and video
+- Time synchronization
+- Email and web
+- File transfer
+- Directory services
+- Remote access
+- Domain name resolution
+- Routing and switching
+- Network address allocation
+- Subscription services        
+
+
+3.0 Architecture and Design
+
+
+
+            
+
+
